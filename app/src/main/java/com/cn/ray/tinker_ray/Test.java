@@ -7,6 +7,6 @@ public class Test {
 
     public void testFix(Context context) {
        throw new RuntimeException();
-        // Toast.makeText(context, "修复成功了", Toast.LENGTH_LONG).show();
+        // 注释上面，编译dex Toast.makeText(context, "修复成功了", Toast.LENGTH_LONG).show();
     }
 }
